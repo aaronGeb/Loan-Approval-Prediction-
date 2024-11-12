@@ -52,6 +52,7 @@ zipp = "==3.17.0"
 kagglehub = "*"
 seaborn = "*"
 matplotlib = "*"
+scikit-learn = "*"
 
 [dev-packages]
 ipykernel = "*"

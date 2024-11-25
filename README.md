@@ -28,6 +28,14 @@ Source: [Kaggle](https://www.kaggle.com/datasets/architsharma01/loan-approval-pr
   
 **5.	Deployment**
 - Building a user-friendly interface for real-time predictions using Flask.
+
+# Results
+
+- Best Model: DecisionTree
+- Accuracy: 77.8%
+- Precision: 74%
+- Recall: 79%
+- AUC-ROC: 73%
   
 # installation
 **1.Clone this repository:**

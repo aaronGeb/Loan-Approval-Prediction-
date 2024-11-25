@@ -5,7 +5,7 @@ The Loan Approval Prediction Project helps financial institutions determine whet
 # Dataset
 
 The dataset used for this project contains records of loan applicants with various attributes like income, education, credit history, etc. Each record is labeled as approved or not approved.
-Source: [Mention the source of your dataset, e.g., Kaggle, UCI Machine Learning Repository, or synthetic.]
+Source: [Kaggle](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset)
 
 # Project Workflow
 

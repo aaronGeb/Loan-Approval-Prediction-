@@ -63,7 +63,7 @@ jupyter notebook loan_approval_prediction.ipynb
 ```
 **2.	For deployment, execute the application:**
 ```
-python app.py
+python prediction.py
 ```
 ## Future Improvements
 

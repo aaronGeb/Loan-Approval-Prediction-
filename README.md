@@ -76,3 +76,11 @@ Contributions are welcome! Please follow these steps:
 
 # License
 This project is licensed under the [MIT License](LICENSE).
+
+# Support 💬
+If you encounter any issues or have questions, feel free to open an issue in the repository or contact me at [Email](aarongebremariam.94@gmail.com)
+# Acknowledgments 🙏
+
+- Scikit-learn for machine learning algorithms.
+- Flask for the web framework.
+- Docker for containerization.

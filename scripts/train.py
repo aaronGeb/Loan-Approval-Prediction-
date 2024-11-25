@@ -112,6 +112,7 @@ class LoanModel:
         os.makedirs(os.path.dirname(self.output_file), exist_ok=True)
         with open(self.output_file, "wb") as file:
             pickle.dump((self.model, self.dv), file)
+        file.close()
         print("Saving model to", self.output_file)
 
     def load_model(self):

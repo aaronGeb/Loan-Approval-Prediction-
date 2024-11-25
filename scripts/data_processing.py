@@ -6,7 +6,7 @@ from typing import Optional
 
 
 class DataProcessing:
-    def __init__(self, data: Optional[DataFrame] = None):
+    def __init__(self, data: DataFrame = None):
         self.data = data
 
     def read_data(self, path: str) -> DataFrame:
@@ -97,7 +97,7 @@ class DataProcessing:
         Returns:
             DataFrame: data with numerical features transformed
         """
-        numerical_features = self.data.select_dtypes(indlude=np.number).columns
+        numerical_features = self.data.select_dtypes(include=np.number).columns
         for feature in numerical_features:
             skewness = self.data[feature].skew()
             if skewness > 1:

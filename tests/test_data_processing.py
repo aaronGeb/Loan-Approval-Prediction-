@@ -16,6 +16,7 @@ class TestDataProcessing(unittest.TestCase):
     -----
                     unittest.TestCase this allows the new class to inherit
                     from the unittest module
+    """
 
 
     def setUp(self):
@@ -53,22 +54,7 @@ class TestDataProcessing(unittest.TestCase):
             "cb_person_cred_hist_length",
         ]
         self.assertEqual(self.data.columns.tolist(), expected_columns)
-    """
-
-    def setUp(self):
-        self.data = pd.DataFrame(
-            {
-                "age": [25, np.nan, 35],
-                "income": [50000, 60000, np.nan],
-                "loan_amount": [20000, 30000, 40000],
-            }
-        )
-        self.processor = DataProcessing(self.data)
-
-    def test_fill_null_values_skewness(self):
-        self.processor.fill_null_values_skewness(self.data, "income")
-        self.assertFalse(self.data["income"].isnull().any())
-
+   
 
 if __name__ == "__main__":
     unittest.main()

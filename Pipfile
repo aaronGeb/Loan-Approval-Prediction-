@@ -52,10 +52,15 @@ zipp = "==3.17.0"
 kagglehub = "*"
 seaborn = "*"
 matplotlib = "*"
-scikit-learn = "*"
+statsmodels = "*"
+flask = "*"
+flask-cors = "*"
+gunicorn = "*"
+scikit-learn = "==1.2.2"
 
 [dev-packages]
 ipykernel = "*"
+watchdog = "*"
 
 [requires]
 python_version = "3.11"
